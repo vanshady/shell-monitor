@@ -4,7 +4,7 @@ const Jetty = require("jetty");
 const jetty = new Jetty(process.stdout);
 
 const command = '';
-const timeout = 2000;
+const timeout = 5000;
 const color = 1; // -1: white, 0: black, 1: red, 2: green, 3: yellow, 4: blue
 jetty.clear();
 
